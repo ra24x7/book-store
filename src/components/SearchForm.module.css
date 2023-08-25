@@ -1,0 +1,36 @@
+
+.searchinput {
+
+
+    font: inherit;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0px solid #c7c7c7;
+    padding: 0.4rem 1rem;
+    border-radius: 25px 0px 0px 25px;
+    color:#5c5c5c;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    width: 25rem;
+    
+
+
+}
+
+.button {
+
+    font: inherit;
+    cursor: pointer;
+    background-color: antiquewhite;
+    border: 0px solid #c7c7c7;
+    padding: 0.4rem 1rem;
+    border-radius: 0px 25px 25px 0px;
+    color:#5c5c5c;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.button:hover {
+    background-color:  #303030;
+    color: #f3f2ed;
+    }

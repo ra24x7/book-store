@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {RouterProvider, createBrowserRouter} from 'react-router-dom'
+import Home from './components/Home'
+import BookDetail from './components/BookDetail'
+import DataBook from './DataBook'
+
+
+const router = createBrowserRouter([
+  {path: '/', element: <Home />},
+  {path: '/bookdetail/:id', element: <BookDetail data={DataBook}/>}
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+  return (
+  <>
+  <h1 className='heading'> Wisdom Store</h1>
+  <RouterProvider router={router}/>
+  </>
+  )
+  
+
+}
 export default App;

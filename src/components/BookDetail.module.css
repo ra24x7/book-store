@@ -1,0 +1,85 @@
+.main {
+
+    display: flex;
+    margin: 2rem auto;
+    width: 50rem;
+    background-color:  #f3f2ed;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+   
+}
+
+.image img {
+    width: 300px;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    opacity: 0.8;
+  
+}
+
+.title {
+    padding: 0.4rem 1rem;
+    font-size: 2rem;
+    color: #303030;
+    font-weight: 500;
+}
+
+.author {
+    padding: 0.6rem 1rem;
+}
+
+
+.price {
+    padding: 0.6rem 1rem;
+    color:  rgb(220, 137, 20);
+    font-weight: 500;
+    font-size: 1.5rem;
+    
+
+}
+
+
+.desc {
+    padding: 0.6rem 1rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 0.2px;
+    color: #303030;
+}
+
+.stock {
+    padding: 0.6rem 1rem;
+    color: #0a863f;
+    font-weight: 500;
+}
+
+.category {
+    padding: 1rem 1rem;
+    color: #303030;
+    
+    
+    
+}
+
+.button {
+
+
+font: inherit;
+cursor: pointer;
+background-color: #fff;
+border: 0px solid #c7c7c7;
+padding: 0.4rem 1rem;
+
+margin-left: 1rem;
+color:#5c5c5c;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.button:hover {
+background-color:  #303030;
+color: #f3f2ed;
+}
