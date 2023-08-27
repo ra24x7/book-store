@@ -5,6 +5,7 @@ import Booklist from './Booklist'
 import { useState } from 'react'
 import classes from './Home.module.css'
 import SearchForm from './SearchForm'
+import RanQuotes from './RanQuotes'
 
 function Home() {
 
@@ -29,6 +30,7 @@ function Home() {
     <h1 className={classes.heading}> </h1>
     <CategoryNav ctgry={navCategories} buttonClickHandler={buttonClickHandler} setItems ={setItems}/>
     <Booklist  data={items}/>
+    <RanQuotes/>
   </div>
   );
 }

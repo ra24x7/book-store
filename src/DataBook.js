@@ -95,10 +95,24 @@ const BOOK_DATA = [
         description: "Discovered in the attic in which she spent the last years of her life, Anne Frank’s remarkable diary has become a world classic—a powerful reminder of the horrors of war and an eloquent testament to the human spirit.",
         instock: 12,
         rating: 4.19,
-        sku: 1101,
+        sku: 1107,
         img: "https://m.media-amazon.com/images/I/81xPFVVGesL._AC_UF1000,1000_QL80_.jpg"
 
     },
+
+    {
+        id: 'b8',
+        title: 'The 4-Hour Workweek',
+        author: 'Timothy Ferriss',
+        price: 550,
+        category: 'Business',
+        description: "What do you do? Tim Ferriss has trouble answering the question. Depending on when you ask this controversial Princeton University guest lecturer, he might answer: I race motorcycles in Europe.I ski in the Andes.I scuba dive in Panama.I dance tango in Buenos Aires. He has spent more than five years learning the secrets of the New Rich, a fast-growing subculture who has abandoned the deferred-life plan and instead mastered the new currencies-time and mobility-to create luxury lifestyles in the here and now. Whether you are an overworked employee or an entrepreneur trapped in your own business, this book is the compass for a new and revolutionary world.",
+        instock: 11,
+        rating: 3.91,
+        sku: 1108,
+        img: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442957271i/368593.jpg"
+    },
+
 
 
 ]

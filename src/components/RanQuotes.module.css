@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 2rem;
+}
+
+.quote {
+
+margin: 1rem 25rem;
+font-weight: 300;
+font-size: 1.1rem;
+letter-spacing: 0.2px;
+color: #303030;
+
+}
+
+.author{
+   
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    color: #303030;
+    padding-bottom: 0.5rem;
+}
+
+.line {
+   
+    border-bottom: 1 px solid #7b7b7b; 
+    padding-bottom: 4rem;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    color: #303030;
+    padding-bottom: 0.3rem;
+}
